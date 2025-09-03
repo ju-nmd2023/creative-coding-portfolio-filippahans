@@ -3,5 +3,10 @@
     "file": "experiments/week1_art1.js",
     "name": "Flowers Grid",
     "description": "A grid of flower-like shapes created with overlapping ellipses in randomized pastel warm colors. Inspired by Vera Molnárs use of repetition and grids in generative art."
+  },
+  {
+    "file": "experiments/week1_art2.js",
+    "name": "Flowers Grid Variation",
+    "description": "A variation of the first flower grid, featuring more petals per flower, new colors, differences in size and stroke, and small square details in the center. Inspired by Vera Molnárs use of grids, repetition, and small variations."
   }
 ]
