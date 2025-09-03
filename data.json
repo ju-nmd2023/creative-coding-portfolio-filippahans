@@ -1,7 +1,7 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "file": "experiments/week1_art1.js",
+    "name": "Flowers Grid",
+    "description": "A grid of flower-like shapes created with overlapping ellipses in pastel warm colors. Inspired by Vera Molnárs use of repetition and grids in generative art."
   }
 ]
