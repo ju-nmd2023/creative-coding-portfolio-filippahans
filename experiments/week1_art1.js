@@ -19,21 +19,18 @@ function draw() {
       push();
       translate(x, y);
 
-      // Här är det som du kan leka med: former och färg
       let r = random(200, 255);
       let g = random(100, 220);
       let b = random(100, 180);
       fill(r, g, b, 150);
       noStroke();
 
-      // Exempel: fyra korsande ellipser istället för square
       let petals = 5;
       for (let i = 0; i < petals; i++) {
         ellipse(0, 0, size, size / 2);
         rotate((PI * 2) / petals);
       }
 
-      // Extra små rektanglar i mitten
       fill(255, 255, 255, 100);
       for (let k = 0; k < 4; k++) {
         ellipse(-size / 8, -size / 8, size / 4, size / 4);
