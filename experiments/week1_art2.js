@@ -20,16 +20,9 @@ function draw() {
 
       let flowerSize = size * random(0.8, 1.2);
 
-      let r = random(250, 255);
-      let g = random(200, 255);
-      let b = random(180, 255);
-      fill(r, g, b, 120);
-      stroke(r - 80, g - 80, b - 80, 220);
-      strokeWeight(1.5);
-
-      let petals = 6;
+      let petals = 5;
       for (let i = 0; i < petals; i++) {
-        ellipse(0, 0, flowerSize / 1.5, flowerSize);
+        ellipse(0, 0, flowerSize, flowerSize / 2);
         rotate((PI * 2) / petals);
       }
 

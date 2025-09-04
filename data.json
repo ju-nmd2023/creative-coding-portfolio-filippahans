@@ -7,6 +7,6 @@
   {
     "file": "experiments/week1_art2.js",
     "name": "Flowers Grid Variation",
-    "description": "A variation of the first flower grid, featuring more petals per flower, new colors, differences in size and stroke, and small square details in the center. Inspired by Vera Molnárs use of grids, repetition, and small variations."
+    "description": "A variation of the first flower grid, using black and white instead of colors. The petals are oval-shaped like in the original, with added variation in size and stroke, plus small square details in the center. Inspired by Vera Molnárs use of grids, repetition, and small variations."
   }
 ]
