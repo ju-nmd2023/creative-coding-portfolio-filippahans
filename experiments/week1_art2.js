@@ -27,12 +27,12 @@ function draw() {
       }
 
       noFill();
-      for (let m = 0; m < 4; m++) {
-        rect(
-          -flowerSize / 60,
+      for (let k = 0; k < 4; k++) {
+        ellipse(
+          -flowerSize / 50,
           -flowerSize / 20,
           flowerSize / 10,
-          flowerSize / 6
+          flowerSize / 8
         );
         rotate(PI / 2);
       }
