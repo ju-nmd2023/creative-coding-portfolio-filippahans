@@ -13,5 +13,10 @@
     "file": "experiments/week1_art3.js",
     "name": "Flowers Grid Variation",
     "description": "A variation of the flower grid where each position is filled with layered, rose-like shapes. Random green stems and leaves are added to some of the flowers. Art inspired by Vera Molnárs use of grids, repetition, and variation - Code inspired by Bassima’s lecture (03/09)"
+  },
+  {
+    "file": "experiments/week1_art4.js",
+    "name": "Randomized Squares",
+    "description": "A pattern of squares where each corner is slightly randomized, making the otherwise regular forms appear more alive and unpredictable. The work is inspired by Manfred Mohr’s interest in exploring variations within simple geometric structures"
   }
 ]
