@@ -9,7 +9,8 @@ function setup() {
 
 function draw() {
   background(239, 231, 219);
-  strokeWeight(1.5);
+  strokeWeight(2);
+  stroke(158, 144, 137);
   fill(239, 231, 219);
   let y = (height - size * amount - gap * (amount - 1)) / 2;
 
