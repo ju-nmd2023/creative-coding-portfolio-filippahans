@@ -35,7 +35,7 @@ function drawSquare(x, y, s) {
 }
 
 function draw() {
-  background(255, 182, 193);
+  background(250, 218, 221);
   stroke(219, 21, 20);
   strokeWeight(1.5);
   noFill();

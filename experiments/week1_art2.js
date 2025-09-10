@@ -4,7 +4,7 @@ const amount = 5;
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
-  noLoop();
+  frameRate(2);
 }
 
 function draw() {
