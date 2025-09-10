@@ -37,7 +37,7 @@ function drawSquare(x, y, s) {
 function draw() {
   background(255, 182, 193);
   stroke(219, 21, 20);
-  strokeWeight(1);
+  strokeWeight(1.5);
   noFill();
 
   let y = (height - size * amount - gap * (amount - 1)) / 2;

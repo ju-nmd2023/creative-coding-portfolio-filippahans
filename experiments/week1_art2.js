@@ -8,7 +8,9 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background(239, 231, 219);
+  strokeWeight(1.5);
+  fill(239, 231, 219);
   let y = (height - size * amount - gap * (amount - 1)) / 2;
 
   for (let i = 0; i < amount; i++) {
@@ -26,7 +28,7 @@ function draw() {
         rotate((PI * 2) / petals);
       }
 
-      noFill();
+      fill(239, 231, 219);
       for (let k = 0; k < 4; k++) {
         ellipse(
           -flowerSize / 50,

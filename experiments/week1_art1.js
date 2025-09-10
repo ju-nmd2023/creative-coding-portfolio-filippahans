@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background(239, 231, 219);
   let y = (height - size * amount - gap * (amount - 1)) / 2;
   let counter = 0;
 
