@@ -24,10 +24,14 @@
     "name": "Randomized Squares Variation",
     "description": "A pattern of squares where each row gradually fills with semi-transparent color, creating a growing, dynamic pattern. The work is inspired by Manfred Mohr’s interest in exploring variations within simple geometric structures"
   },
-
   {
     "file": "experiments/week2_art1.js",
     "name": "Bouncing Dots",
     "description": "Dots moving with random velocities across the canvas, bouncing off edges. Inspired by Manfred Mohr’s generative art using simple geometric elements - Code inspired by Bassima’s lecture (10/09)"
+  },
+  {
+    "file": "experiments/week2_art2.js",
+    "name": "Dots variation",
+    "description": "Dots across the canvas. Inspired by Manfred Mohr’s generative art using simple geometric elements - Code inspired by Bassima’s lecture (10/09)"
   }
 ]
