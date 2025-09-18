@@ -9,7 +9,7 @@ function setup() {
   for (let i = 0; i < numDots; i++) {
     dots.push({
       position: createVector(random(width), random(height)),
-      size: random(5, 20),
+      size: random(2, 10),
     });
   }
 }

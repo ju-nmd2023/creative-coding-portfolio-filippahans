@@ -33,5 +33,10 @@
     "file": "experiments/week2_art2.js",
     "name": "Dots variation",
     "description": "Dots across the canvas. Inspired by Manfred Mohr’s generative art using simple geometric elements - Code inspired by Bassima’s lecture (10/09)"
+  },
+  {
+    "file": "experiments/week3_art1.js",
+    "name": "Dots particles",
+    "description": "Dots appear and disappear across the canvas. Inspired by Manfred Mohr’s generative art using simple geometric elements - Code inspired by the particle examples"
   }
 ]
