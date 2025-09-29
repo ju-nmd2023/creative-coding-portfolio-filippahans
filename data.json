@@ -26,7 +26,7 @@
   },
   {
     "file": "experiments/week2_art1.js",
-    "name": "Bouncing Dots",
+    "name": "Bouncing Dots kaleidoscope",
     "description": "Dots moving with random velocities across the canvas, bouncing off edges. Inspired by Manfred Mohr’s generative art using simple geometric elements - Code inspired by Bassima’s lecture (10/09)"
   },
   {
@@ -38,5 +38,10 @@
     "file": "experiments/week3_art1.js",
     "name": "Dots particles",
     "description": "Dots appear and disappear across the canvas. Inspired by Manfred Mohr’s generative art using simple geometric elements - Code inspired by the particle examples"
+  },
+  {
+    "file": "experiments/week3_art2.js",
+    "name": "Particles Flow field",
+    "description": "Particles flowing smoothly across the canvas in a field. Inspired by Manfred Mohr’s generative art using simple geometric elements - Code inspired by the particle examples and the flow field 03 example"
   }
 ]
