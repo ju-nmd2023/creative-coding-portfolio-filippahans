@@ -42,6 +42,6 @@
   {
     "file": "experiments/week3_art2.js",
     "name": "Particles Flow field",
-    "description": "Particles flowing smoothly across the canvas in a field. Inspired by Manfred Mohr’s generative art using simple geometric elements - Code inspired by the particle examples and the flow field 03 example"
+    "description": "Particles flowing smoothly across the canvas in a field. Inspired by Manfred Mohr’s generative art using simple geometric elements - Code inspired by the particle examples and the flow field 03 example (click for sound)"
   }
 ]

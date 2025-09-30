@@ -5,7 +5,7 @@ class Particle {
     this.velocity = createVector(0, 0);
     this.acceleration = createVector(0, 0);
     this.lifespan = int(random(80, 150));
-    this.size = random(2, 6);
+    this.size = random(3, 6);
     this.maxSpeed = 2;
     this.maxForce = 0.05;
   }
@@ -52,7 +52,7 @@ class Particle {
 
   draw() {
     push();
-    stroke(0, map(this.lifespan, 0, 150, 0, 255));
+    stroke(255, map(this.lifespan, 0, 150, 0, 255));
     strokeWeight(this.size / 2);
     line(
       this.lastPosition.x,
@@ -74,6 +74,8 @@ const maxRows = Math.ceil(innerHeight / fieldSize);
 const divider = 4;
 let field;
 let particles = [];
+let osc;
+let lfo;
 
 function generateField() {
   let f = [];
@@ -90,12 +92,32 @@ function generateField() {
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
-  background(255);
+  background(0);
   field = generateField();
+
+  synth = new Tone.Synth({
+    oscillator: { type: "sine" },
+    envelope: { attack: 2, decay: 2, sustain: 0.5, release: 4 },
+    volume: -20,
+  }).toDestination();
+
+  lfo = new Tone.LFO({
+    type: "sine",
+    min: 180,
+    max: 300,
+    frequency: 0.05,
+  }).connect(synth.frequency);
+
+  window.addEventListener("click", async () => {
+    await Tone.start();
+    synth.triggerAttack("C4");
+    lfo.start();
+    console.log("Audio started!");
+  });
 }
 
 function draw() {
-  background(255, 40);
+  background(100, 10);
 
   for (let i = 0; i < 3; i++) {
     let x = random(width);
